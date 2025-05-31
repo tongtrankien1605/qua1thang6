@@ -82,7 +82,7 @@ function tapLove(id) {
     Swal.fire({
       title: 'Đủ 4 love rồi nè!',
       text: 'Sẵn sàng nhận quà chưa? 💖',
-      timer: 1500,
+      timer: 3500,
       showConfirmButton: false,
       background: '#fffbe7',
       customClass: { title: 'swal-title', content: 'swal-text' }
