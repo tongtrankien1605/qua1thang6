@@ -93,12 +93,12 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Chúc ${userName} của anh 1/6 thật vui vẻ như một đứa trẻ, nhưng được anh yêu như một nữ hoàng 👑. Dù em có lớn bao nhiêu thì trong tim anh, em vẫn là công chúa bé bỏng cần được cưng chiều mỗi ngày! 💘`,
+        `Chúc ${userName} ngày 1/6 luôn luôn vui vẻ, hạnh phúc . Kiết khánh hạ bảo bình an, đông toàn đa phước 👑. Chúc ${userName} muôn đời an nhàn, ống mãi trong ánh sáng hào quang của 10 phương chư Phật. Xin Đức Phật A di đà từ bi phù hộ độ trì cho ${userName}, moãi iu .... 💘`,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
           fromTag.id = 'fromTag';
-          fromTag.textContent = "From: Tống Trần Kiên";
+          fromTag.textContent = "From: Tống Trần Kiên with Love ❤️";
           fromTag.style.marginTop = "20px";
           fromTag.style.opacity = "0";
           fromTag.style.transition = "opacity 1s ease";
@@ -115,7 +115,7 @@ function tapLove(id) {
 
 async function inipesan() {
   const { value: typedName } = await Swal.fire({
-    title: 'Nhập Tên Của EmBé đi',
+    title: 'Nhập Tên Của Bạn nhó',
     input: 'text',
     inputValue: '',
     allowOutsideClick: false,
