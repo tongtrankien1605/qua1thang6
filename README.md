@@ -2,7 +2,7 @@
 
 <br/>
 
- ## 👉 Nhận quà [TẠI ĐÂY](https://tongtrankien1605.github.io/) nhé !!!
+ ## 👉 Nhận quà [TẠI ĐÂY](https://tongtrankien1605.github.io/qua1thang6) nhé !!!
 
 <br/>
 
