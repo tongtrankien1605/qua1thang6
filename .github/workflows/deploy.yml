@@ -16,4 +16,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy to Surge
-        run: surge ./public --token ${{ secrets.SURGE_TOKEN }} --domain qua1thang6.surge.sh
+        run: surge ./ --token ${{ secrets.SURGE_TOKEN }} --domain qua1thang6.surge.sh
